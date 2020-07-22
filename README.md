@@ -14,5 +14,5 @@
 
 ### 📚 竞赛
 
-- [**CCF BDCI 2019 工件质量预测冠军**](https://discussion.datafountain.cn/questions/2234/answers/23331)：在团队中主要负责特征工程的工作，在与团队交流的过程中学到了很多，还需要提升的技能主要是对于数据的分析能力。
-- [**biendata 智源抗疫 - 药物研发小分子性质预测赛15th/624teams**](https://www.biendata.xyz/competition/molecule/final-leaderboard/): 个人独立参赛，主要是对一些异常值进行清洗、特征工程以及后处理方法矫正，在使用hyperparameter_hunter模块进行模型调参时，发现其不足，并提交了pull request。
+- [**CCF BDCI 2019 工件质量预测冠军**](https://discussion.datafountain.cn/questions/2234/answers/23331)：在团队中主要负责特征工程与模型搭建的工作,在与团队交流的过程中学到了很多。还需要提升的技能主要是对于数据的分析能力。
+- [**biendata 智源抗疫 - 药物研发小分子性质预测赛15th/624teams**](https://www.biendata.xyz/competition/molecule/final-leaderboard/): 个人独立参赛，主要是对一些异常值进行清洗、特征工程以及后处理方法矫正，在使用hyperparameter_hunter模块进行模型调参时，发现其不足，并提交了pull request。在学习冠军方案后,学会了如何使用神经网络来处理表格高维数据.
