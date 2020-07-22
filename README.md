@@ -4,7 +4,7 @@
 
 ### 📫 联系方式
 
-[知乎](https://www.zhihu.com/people/shaoeric) |  ✉️ [Email](shaoeric@foxmail.com) | 💬 [Issue](https://github.com/shaoeric/shaoeric/issues) 
+[知乎](https://www.zhihu.com/people/shaoeric) |  ✉️ [Email](mailto:shaoeric@foxmail.com) | 💬 [Issue](https://github.com/shaoeric/shaoeric/issues) 
 
 ### 💡 主要工作
 
