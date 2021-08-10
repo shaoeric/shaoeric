@@ -8,8 +8,12 @@
 
 ### 💡 主要工作
 
-- [**小样本目标检测框架**](https://github.com/shaoeric/modified_LSTD_pytorch): 该项目是我本科毕业设计课题，针对LSTD框架进行了复现和改进，复现和改进耗时二十天，项目个人独立完成，最终获得学校优秀毕业设计的**第一名**，该项目在申请专利中。
-- [**GTZAN音乐风格分类**](https://github.com/shaoeric/musical_genres_classification): 该项目是我兴趣使然做的关于深度学习的第一个项目，主要使用的keras框架对GTZAN的10类风格共1000个样本执行分类处理，没有使用经典的模型做骨干网络，而是提取了两个人工特征后搭建了层数较少的网络。
+- [**小样本目标检测框架**](https://github.com/shaoeric/modified_LSTD_pytorch): 该项目是我本科毕业设计课题，针对[LSTD](https://ojs.aaai.org/index.php/AAAI/article/view/11716)框架进行了复现和改进，复现和改进耗时二十天，项目个人独立完成，最终获得学校优秀毕业设计的**第一名**，该项目在申请专利中
+  - 提出了使用统计特征方法改进背景抑制模块，减少了训练时的参数量和计算量
+  - 提出了一种分类器热启动训练机制，加快分类器的训练收敛速度（trick）
+- [**GTZAN音乐风格分类**](https://github.com/shaoeric/musical_genres_classification): 该项目是我兴趣使然做的关于深度学习的第一个项目，主要使用的keras框架对GTZAN的10类风格共1000个样本执行分类处理
+  - 使用了改进预加权的MFCC特征以及logbank特征作为网络的两个输入
+  - 使用了two-input网络提取特征，再concat后分类。 网络结构相对简单
 - [**pynotice**](https://github.com/shaoeric/pynotice): 空闲时间写的一个模块，用来在程序运行结束或者报错的时候通过邮件等方式提醒用户的（数据处理和训练模型比较耗时，又不知道什么时候结束），已经上传到**pypi**可以在线安装了
 
 ### 📚 竞赛
