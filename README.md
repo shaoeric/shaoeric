@@ -15,6 +15,9 @@
 - [**小样本目标检测框架**](https://github.com/shaoeric/modified_LSTD_pytorch): 该项目是我本科毕业设计课题，针对[LSTD](https://ojs.aaai.org/index.php/AAAI/article/view/11716)框架进行了复现和改进，复现和改进耗时二十天，项目个人独立完成，最终获得学校优秀毕业设计的**第一名**，该项目在申请专利中
   - 提出了使用统计特征方法改进背景抑制模块，减少了训练时的参数量和计算量
   - 提出了一种分类器热启动训练机制，加快分类器的训练收敛速度（trick）
+- [**基于opencv与深度学习的图像处理与标注系统**](https://github.com/shaoeric/Integrated_system_of_image_processing_and_annotation)：该软件的作用是对图像做简单的图像变换，并提供了flask服务端的深度学习接口，已申请软件著作权（编号2020SR0393221）
+  - c++ Qt和opencv实现图形化界面，并实现对图像的基本变换和图像级标签标注
+  - 使用python flask框架将深度学习方法部署在服务器上，通过json数据包实现客户端与服务器的数据交互
 - [**GTZAN音乐风格分类**](https://github.com/shaoeric/musical_genres_classification): 该项目是我兴趣使然做的关于深度学习的第一个项目，主要使用的keras框架对GTZAN的10类风格共1000个样本执行分类处理
   - 使用了改进预加权的MFCC特征以及logbank特征作为网络的两个输入
   - 使用了two-input网络提取特征，再concat后分类。 网络结构相对简单
