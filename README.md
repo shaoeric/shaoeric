@@ -12,6 +12,10 @@
 
 ### 💡 主要工作
 
+- [**Multi-granularity for knowledge distillation**](https://github.com/shaoeric/multi-granularity-distillation)：**首次**提出了知识的多粒度性，以及两种多粒度知识蒸馏策略。并将其应用于知识蒸馏中，提高学生网络的分类性能，已被**Image and Vision Computing**接受
+  - 教师教学生应该因材施教，而学生学习知识也应广泛吸收知识，因此提出知识的多粒度性
+  - 在CIFAR-100和Market-1501进行了模型压缩实验，学生网络性能提升显著，大多数性能超越SOTA。将提出的蒸馏机制嵌入到SOTA框架中后，依然可以进一步提高SOTA性能
+  - 执行了教师和学生网络的多种相似度实验，证明多粒度知识是可以迁移的。
 - [**小样本目标检测框架**](https://github.com/shaoeric/modified_LSTD_pytorch): 该项目是我本科毕业设计课题，针对[LSTD](https://ojs.aaai.org/index.php/AAAI/article/view/11716)框架进行了复现和改进，复现和改进耗时二十天，项目个人独立完成，最终获得学校优秀毕业设计的**第一名**，该项目在申请专利中
   - 提出了使用统计特征方法改进背景抑制模块，减少了训练时的参数量和计算量
   - 提出了一种分类器热启动训练机制，加快分类器的训练收敛速度（trick）
