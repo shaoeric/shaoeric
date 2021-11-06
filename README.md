@@ -39,9 +39,14 @@
   - 特征工程：使用经纬度特征，构造出相关性0.86的强特。
   - 特征清洗：港口特征存在大量的相同港口但港口名不同的情况，使用geohash将港口名统一。
   - 路段匹配：通过航线的经纬度与港口的经纬度计算距离，限制其距离至一定阈值认为其经过了哪些港口，并设置起始港口。
-- [**Kaggle Google Smartphone Decimeter Challenge铜牌60th/810teams**](https://www.kaggle.com/c/google-smartphone-decimeter-challenge/overview): 谷歌主办的手机室外定位赛，目的是提高智能手机的GNSS 定位精度。由于选取了lb比较好的结果，导致有些过拟合，pb shake。三个月的follow收获颇多。主要贡献：
+- [**Kaggle Google Smartphone Decimeter Challenge铜牌60th/810teams**](https://github.com/shaoeric/GSDC): 谷歌主办的手机室外定位赛，目的是提高智能手机的GNSS 定位精度。由于选取了lb比较好的结果，导致有些过拟合，pb shake。三个月的follow收获颇多。主要贡献：
   - 偏移纠正：基于已有定位结果，估算手机位置偏移程度，统一纠正。
   - 停车检测：采用规则和LGBM预测汽车出发和结束时停车时段，同时，规则捕捉行驶过程中停车时段，使用中位数替换停车窗口的定位点。
   - 路网匹配：将定位点匹配到地图路网上，匹配过程中，基于平移速度、最近邻候选点和与最近邻路网点的距离做异常值剔除。
   - 轨迹平滑：结合高斯滤波和卡尔曼滤波，平滑数据，同时对同一采集时段的轨迹，插值填空和平均轨迹。
   - 参数调优：针对不同类型的路段，采用optuna自动调参。 
+- [**Kaggle NFL Health&Safety-Helmet Assignment铜牌 64th/833teams**](https://github.com/shaoeric/kaggle-NLF-helmet-assignment)：NFL与亚马逊提供的赛题，为了保护橄榄球运动员的健康，通过摄像头拍摄画面与传感器数据，将运动员的球员号与画面的头盔检测框进行匹配，方便后续访问有头部撞击的运动员。主要贡献：
+  - 边缘裁剪：摄像头拉远景时，会有大量的场外球员的干扰，通过迭代裁剪边缘进行剔除。
+  - 机位预测：通过OCR的技术对摄像机在球场的位置进行判断。
+  - 旋转匹配：分别在XY两个轴向对传感器定位数据进行旋转，迭代查找与镜头画面的头盔坐标位置距离最小的球员号匹配方案。
+  - 双deepsort后处理融合：一个deepsort负责追踪头盔，一个deepsort负责追踪运动员半身，头盔提供了较好的位置信息，球员提供了较好的外观信息，通过labelcount特征将二者融合，提高精度。
