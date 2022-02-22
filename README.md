@@ -1,10 +1,9 @@
-### 大家好, 我是 **Shao Eric**
-id：闪电侠的右手
+### Hi there，this is **Shao Eric**
 
-本科：江南大学（211），物联网工程专业
-研究生：江南大学，控制科学与控制工程（保研）
-
-- ⚡ 知乎: [https://www.zhihu.com/people/shaoeric](https://www.zhihu.com/people/shaoeric)
+- :school: 本科: 江南大学（211），物联网工程专业
+- :school: 研究生: 江南大学，控制科学与控制工程（保研）
+- :rocket: 开源贡献: [Tengine-lite](https://github.com/shaoeric/Tengine)
+- ⚡ 知乎「id: 闪电侠的右手」: [https://www.zhihu.com/people/shaoeric](https://www.zhihu.com/people/shaoeric)
 - ✉️ Email: [shaoeric@foxmail.com](mailto:shaoeric@foxmail.com)
 
 ![My GitHub stats](https://github-readme-stats.vercel.app/api?username=shaoeric&count_private=true&show_icons=true)
