@@ -1,52 +1,21 @@
 ### 👋 介绍
 
-大家好, 我是 **Shao Eric**，知乎id：闪电侠的右手。
+大家好, 我是 **Shao Eric**，id：闪电侠的右手。
 
 本科：江南大学（211），物联网工程专业
-
 研究生：江南大学，控制科学与控制工程（保研）
 
-### 📫 联系方式
+- ⚡ 知乎: [https://www.zhihu.com/people/shaoeric](https://www.zhihu.com/people/shaoeric)
+- ✉️ Email: [shaoeric@foxmail.com](mailto:shaoeric@foxmail.com)
 
-[知乎](https://www.zhihu.com/people/shaoeric) |  ✉️ [Email](mailto:shaoeric@foxmail.com) | 💬 [Issue](https://github.com/shaoeric/shaoeric/issues) 
+![My GitHub stats](https://github-readme-stats.vercel.app/api?username=shaoeric&count_private=true&show_icons=true)
 
-### 💡 主要工作
+### You might be insterested
 
-- [**Multi-granularity for knowledge distillation**](https://github.com/shaoeric/multi-granularity-distillation)：**首次**提出了知识的多粒度性，以及两种多粒度知识蒸馏策略。并将其应用于知识蒸馏中，提高学生网络的分类性能，已被**Image and Vision Computing**接受
-  - 教师教学生应该因材施教，而学生学习知识也应广泛吸收知识，因此提出知识的多粒度性
-  - 在CIFAR-100和Market-1501进行了模型压缩实验，学生网络性能提升显著，大多数性能超越SOTA。将提出的蒸馏机制嵌入到SOTA框架中后，依然可以进一步提高SOTA性能
-  - 执行了教师和学生网络的多种相似度实验，证明多粒度知识是可以迁移的。
-- [**小样本目标检测框架**](https://github.com/shaoeric/modified_LSTD_pytorch): 该项目是我本科毕业设计课题，针对[LSTD](https://ojs.aaai.org/index.php/AAAI/article/view/11716)框架进行了复现和改进，复现和改进耗时二十天，项目个人独立完成，最终获得学校优秀毕业设计的**第一名**，该项目在申请专利中
-  - 提出了使用统计特征方法改进背景抑制模块，减少了训练时的参数量和计算量
-  - 提出了一种分类器热启动训练机制，加快分类器的训练收敛速度（trick）
-- [**基于opencv与深度学习的图像处理与标注系统**](https://github.com/shaoeric/Integrated_system_of_image_processing_and_annotation)：该软件的作用是对图像做简单的图像变换，并提供了flask服务端的深度学习接口，已申请软件著作权（编号2020SR0393221）
-  - c++ Qt和opencv实现图形化界面，并实现对图像的基本变换和图像级标签标注
-  - 使用python flask框架将深度学习方法部署在服务器上，通过json数据包实现客户端与服务器的数据交互
-- [**GTZAN音乐风格分类**](https://github.com/shaoeric/musical_genres_classification): 该项目是我兴趣使然做的关于深度学习的第一个项目，主要使用的keras框架对GTZAN的10类风格共1000个样本执行分类处理
-  - 使用了改进预加权的MFCC特征以及logbank特征作为网络的两个输入
-  - 使用了two-input网络提取特征，再concat后分类。 网络结构相对简单
-- [**pynotice**](https://github.com/shaoeric/pynotice): 空闲时间写的一个模块，用来在程序运行结束或者报错的时候通过邮件等方式提醒用户的（数据处理和训练模型比较耗时，又不知道什么时候结束），已经上传到**pypi**可以在线安装了
-
-### 📚 竞赛
-
-- [**CCF BDCI 2019 工件质量预测冠军**](https://discussion.datafountain.cn/questions/2234/answers/23331)：西门子提供的赛题，目的是通过工业生产的一些参数，对零件的质量进行分类。在团队中主要负责特征工程与模型搭建的工作,在与团队交流的过程中学到了很多。还需要提升的技能主要是对于数据的分析能力。主要贡献：
-  - 精度统一：将一些保留精度不同的数值类型特征统一精度，将其作为类别型特征处理。
-  - 软测量方法：通过可视化方法发现A类特征相对于label有明显的分界，使用XGB模型对P类特征建模去预测A类特征，再使用A类特征对label进行建模。
-- [**biendata 智源抗疫 - 药物研发小分子性质预测赛15th/624teams**](https://www.biendata.xyz/competition/molecule/final-leaderboard/): 智源提供的赛题，目的是通过大量的药物分子的特征预测五种化学性质。个人独立参赛。在学习冠军方案后,学会了如何使用神经网络来处理表格高维数据。
-  - 分布调整：使用不同的变换函数对5个target的分布进行变换。
-  - 二分类网络矫正：评价函数SMAPE在零附近的结果以及正负预测错误的结果损失更大，提出用二分类网络对target的正负号建模，对预测网络的结果进行矫正。
-- [**2020中国高校计算机大赛·华为云大数据挑战赛19th/1491teams**](https://competition.huaweicloud.com/information/1000037843/bdc2020?track=107):赛题为运单ETA预测问题，难点在于如何对海量数据进行数据清洗，并合理分配样本标签。在团队中，主要是进行了数据分析，特征工程。
-  - 特征工程：使用经纬度特征，构造出相关性0.86的强特。
-  - 特征清洗：港口特征存在大量的相同港口但港口名不同的情况，使用geohash将港口名统一。
-  - 路段匹配：通过航线的经纬度与港口的经纬度计算距离，限制其距离至一定阈值认为其经过了哪些港口，并设置起始港口。
-- [**Kaggle Google Smartphone Decimeter Challenge铜牌60th/810teams**](https://github.com/shaoeric/GSDC): 谷歌主办的手机室外定位赛，目的是提高智能手机的GNSS 定位精度。由于选取了lb比较好的结果，导致有些过拟合，pb shake。三个月的follow收获颇多。主要贡献：
-  - 偏移纠正：基于已有定位结果，估算手机位置偏移程度，统一纠正。
-  - 停车检测：采用规则和LGBM预测汽车出发和结束时停车时段，同时，规则捕捉行驶过程中停车时段，使用中位数替换停车窗口的定位点。
-  - 路网匹配：将定位点匹配到地图路网上，匹配过程中，基于平移速度、最近邻候选点和与最近邻路网点的距离做异常值剔除。
-  - 轨迹平滑：结合高斯滤波和卡尔曼滤波，平滑数据，同时对同一采集时段的轨迹，插值填空和平均轨迹。
-  - 参数调优：针对不同类型的路段，采用optuna自动调参。 
-- [**Kaggle NFL Health&Safety-Helmet Assignment铜牌 64th/833teams**](https://github.com/shaoeric/kaggle-NLF-helmet-assignment)：NFL与亚马逊提供的赛题，为了保护橄榄球运动员的健康，通过摄像头拍摄画面与传感器数据，将运动员的球员号与画面的头盔检测框进行匹配，方便后续访问有头部撞击的运动员。主要贡献：
-  - 边缘裁剪：摄像头拉远景时，会有大量的场外球员的干扰，通过迭代裁剪边缘进行剔除。
-  - 机位预测：通过OCR的技术对摄像机在球场的位置进行判断。
-  - 旋转匹配：分别在XY两个轴向对传感器定位数据进行旋转，迭代查找与镜头画面的头盔坐标位置距离最小的球员号匹配方案。
-  - 双deepsort后处理融合：一个deepsort负责追踪头盔，一个deepsort负责追踪运动员半身，头盔提供了较好的位置信息，球员提供了较好的外观信息，通过labelcount特征将二者融合，提高精度。
+| repository                                                   | introduction                                                 |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [Multi-granularity for knowledge distillation](https://github.com/shaoeric/multi-granularity-distillation) | 多粒度知识蒸馏论文及开源代码|
+| [KDCL Reproduction](https://github.com/shaoeric/Online-Knowledge-Distillation-via-Collaborative-Learning) | 在线协作知识蒸馏pytorch代码简单复现 |
+| [Google Smartphone Decimeter Challenge](https://github.com/shaoeric/GSDC) | 谷歌手机定位赛60th/810方案|
+| [NFL Helmet Assignment](https://github.com/shaoeric/kaggle-NLF-helmet-assignment) | NFL球员号头盔分配赛64th/833方案 |
+| [Video Background Matting+ffmpeg+NCNN+QT](https://github.com/shaoeric/VideoBackgroundMatting) | 视频人像抠图模型Intel CPU部署实时编解码|
