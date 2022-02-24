@@ -2,8 +2,8 @@
 
 - :school: 本科: 江南大学（211），物联网工程专业
 - :school: 研究生: 江南大学，控制科学与控制工程（保研）
-- :rocket: 开源贡献: [Tengine-lite](https://github.com/shaoeric/Tengine)
 - ⚡ 知乎「id: 闪电侠的右手」: [https://www.zhihu.com/people/shaoeric](https://www.zhihu.com/people/shaoeric)
+- :rocket: 开源贡献者: [Tengine-lite](https://github.com/shaoeric/Tengine)
 - ✉️ Email: [shaoeric@foxmail.com](mailto:shaoeric@foxmail.com)
 
 ![My GitHub stats](https://github-readme-stats.vercel.app/api?username=shaoeric&count_private=true&show_icons=true)
