@@ -1,4 +1,4 @@
-### Hi there，this is **Shao Eric**
+### Hi there，this is **Eric Shaw**
 
 - :school: 本科: 江南大学（211），物联网工程专业
 - :school: 研究生: 江南大学，控制科学与控制工程（保研）
