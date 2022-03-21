@@ -12,8 +12,9 @@
 
 | repository                                                   | introduction                                                 |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [Multi-granularity for knowledge distillation](https://github.com/shaoeric/multi-granularity-distillation) | 多粒度知识蒸馏论文及开源代码|
-| [KDCL Reproduction](https://github.com/shaoeric/Online-Knowledge-Distillation-via-Collaborative-Learning) | 在线协作知识蒸馏pytorch代码简单复现 |
+| [Multi-granularity for knowledge distillation](https://github.com/shaoeric/multi-granularity-distillation) | 多粒度知识蒸馏论文及开源代码[paperswithcode](https://paperswithcode.com/paper/multi-granularity-for-knowledge-distillation)|
+| [KDCL Reproduction](https://github.com/shaoeric/Online-Knowledge-Distillation-via-Collaborative-Learning) | CVPR2020在线协作知识蒸馏pytorch复现[paperswithcode](https://paperswithcode.com/paper/online-knowledge-distillation-via) |
+| [PCL Reproduction](https://github.com/shaoeric/Peer-Collaborative-Learning-for-Online-Knowledge-Distillation)| AAAI2021同伴协作学习在线知识蒸馏pytorch复现[paperswithcode](https://paperswithcode.com/paper/peer-collaborative-learning-for-online)|
 | [Torch-atom](https://github.com/shaoeric/torch-atom)| 基础训练库，适合多网络交互、多损失训练以及多个评价指标的任务|
 | [Google Smartphone Decimeter Challenge](https://github.com/shaoeric/GSDC) | 谷歌手机定位赛60th/810方案|
 | [NFL Helmet Assignment](https://github.com/shaoeric/kaggle-NLF-helmet-assignment) | NFL球员号头盔分配赛64th/833方案 |
